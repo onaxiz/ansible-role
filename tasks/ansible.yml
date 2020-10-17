@@ -8,5 +8,6 @@
 
 - name: Install ansible
   pip:
-    name: ansible=="{{ ansible_version }}"
+    name: ansible
+    version: "{{ ansible_version }}"
     state: present
