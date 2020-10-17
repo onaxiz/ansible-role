@@ -2,7 +2,7 @@
 - name: Install pip
   apt:
     name:
-      - python-pip
+      - python-pip3
     state: present
     update_cache: yes
 
